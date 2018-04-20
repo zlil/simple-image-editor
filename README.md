@@ -4,9 +4,9 @@
 ## Explanation
 
 Paste Image Url
-Choose Text Color
-Add Your Text
-Save & Enjoy
+* Choose Text Color
+* Add Your Text
+* Save & Enjoy
 
 ``` bash
 Build Setup Front End
