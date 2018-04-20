@@ -2,7 +2,7 @@
   <div class="img-container z-depth-4">
     <img class="img-to-edit" :src="this.urlChanges">
     <div class="image-label">
-    <div class="text-append" style="white-space: pre-line;"><pre>{{this.myText(this.flagBreak)}}</pre></div>
+    <div class="text-append" style="white-space: pre-line;" ref="text"><pre>{{this.myText(this.flagBreak)}}</pre></div>
     </div>
   </div>
 </template>
@@ -58,7 +58,6 @@
     },
     watch: {
       color(val) {
-
         $('.text-append').css('color', val);
       }
     }
