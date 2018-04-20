@@ -1,13 +1,14 @@
-Simple-Image-Editor
-A Vue.js & Node.js project
+# Simple-Image-Editor
+> A Vue.js & Node.js project
 
-Explanation
+## Explanation
 
 Paste Image Url
 Choose Text Color
 Add Your Text
 Save & Enjoy
 
+``` bash
 Build Setup Front End
 
 # install dependencies
@@ -25,5 +26,5 @@ npm install
 
 # run server localhost:3000
 node server.js
-
+```
 
