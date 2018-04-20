@@ -1,9 +1,8 @@
 Simple-Image-Editor
- A Vue.js & Node.js project
-
-Musico example
+A Vue.js & Node.js project
 
 Explanation
+
 Paste Image Url
 Choose Text Color
 Add Your Text
