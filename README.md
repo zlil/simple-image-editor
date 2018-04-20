@@ -3,7 +3,7 @@
 
 ## Explanation
 
-Paste Image Url
+* Paste Image Url
 * Choose Text Color
 * Add Your Text
 * Save & Enjoy
