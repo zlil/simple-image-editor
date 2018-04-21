@@ -103,13 +103,11 @@
               Materialize.toast('Please fill all the form.', 3000, 'error-occured');
               return;
             }
-            console.log('eeee')
             let imageData = new Object();
             imageData['url'] = this.urlChanges;
             imageData['color'] = this.color;
             imageData['textToAppend'] = this.textToAppend;
             let txtCoordinates = this.$refs.imageComp.$refs.text.getBoundingClientRect();
-            console.log(txtCoordinates)
             imageData['coordinateX'] = txtCoordinates.x
             imageData['coordinateY'] = txtCoordinates.y
             imageData['fontSize'] = this.$refs.imageComp.font;
