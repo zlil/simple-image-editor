@@ -99,7 +99,7 @@
             this.imageSrc = null;
           },
           async save() {
-            if(this.url == "" || this.url == null || this.color == "" || this.color == null || this.textToAppend == "" || this.textToAppend == null) {
+            if(this.imageUrl == "" || this.imageUrl == null || this.color == "" || this.color == null || this.textToAppend == "" || this.textToAppend == null) {
               Materialize.toast('Please fill all the form.', 3000, 'error-occured');
               return;
             }
